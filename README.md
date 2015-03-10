@@ -1,1 +1,1 @@
-# ScmSpain Frontend Styleguide
+# SCM Spain Frontend Code Styleguide

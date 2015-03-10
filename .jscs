@@ -1,3 +1,5 @@
+// Base on Google Code Styleguide preset
+// https://github.com/jscs-dev/node-jscs/blob/master/presets/google.json
 {
   "esprima": "./node_modules/esprima-fb",
 
