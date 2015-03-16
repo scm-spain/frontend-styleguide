@@ -23,3 +23,7 @@
 - [List Apart's pattern library](http://patterns.alistapart.com/)
 - [List Apart's Style Guide](http://alistapart.com/about/style-guide)
 - [Potion](http://www.getpotion.com/#/components)
+
+## Styleguides Resources
+- [Website Style Guide Resources](http://styleguides.io/)
+
