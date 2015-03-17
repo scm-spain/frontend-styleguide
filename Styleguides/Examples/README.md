@@ -1,5 +1,6 @@
 ## Styleguides Examples
 
+- [InfoJobs Brand Guidelines](http://www.design.infojobs.net/brand/)
 - [Yelp](http://www.yelp.com/styleguide)
 - [Code of America](http://codeforamerica.clearleft.com/)
 - [Lonely Planet](http://rizzo.lonelyplanet.com/styleguide)
