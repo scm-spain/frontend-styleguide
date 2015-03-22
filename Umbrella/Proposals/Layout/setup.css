@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+.scm-main {
+  padding: 24px;
+}
