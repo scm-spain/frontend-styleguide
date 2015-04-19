@@ -1,0 +1,157 @@
+// Button variables (Example with Fotocasa style)
+$button-font:                       'Open Sans', sans-serif;
+
+$button-color:                      #3997d3;
+$button-background:                 #ffffff;
+$button-background--hover:          #b2d6ed;
+
+$button-disabled-color:             #999999;
+$button-disabled-background:        #cccccc;
+
+$button-primary-color:              #ffffff;
+$button-primary-background:         #3997d3;
+$button-primary-background--hover:  #165681;
+
+$button-accent-color:               #ffffff;
+$button-accent-background:          #ec671c;
+$button-accent-background--hover:   #c64e17;
+
+
+// BUTTON BASE
+// -----------------------------------------------------------------------------
+//
+// Base button styles
+//
+// By default the button component is forced to be one line. This behavior can
+// be overwriten with the ".button--multiline" modifier class.
+//
+// 1. Force all elements using beautons to appear clickable.
+// 2. Allow us to better style box model properties.
+// 3. In its basic state the total height of the button is 2.5rem = 40px (with
+//    the default html font-size of 100%).
+//    1rem + 0.75rem * 2 = 2.5rem;
+// 4. Add ellipsis at the end of the line.
+// 5. Line different sized buttons up a little nicer.
+// 6. Prevent content from wrapping, forcing it on a single line.
+// 7. Minimun width, a square.
+// 8. Maximum width, the container.
+
+.scm-button {
+    background: $button-background;
+    box-sizing: border-box;
+    border-radius: 0.125rem;
+    border: 1px solid $button-color;
+    cursor: pointer;            // [1]
+    color: $button-color;
+    display: inline-block;      // [2]
+    font-family: $button-font;
+    font-size: 0.875rem;        // 14px
+    font-weight: 300;
+    line-height: 1rem;          // [3]
+    overflow: hidden;
+    padding: 0.75rem 1rem;      // [3]
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;    // [4]
+    vertical-align: middle;     // [5]
+    white-space: nowrap;        // [6]
+    min-width: 2.5rem;          // [7]
+    max-width: 100%;            // [8]
+
+
+// BUTTON STATES
+// ------------------------------------------------------------
+    &:hover,
+    &:active,
+    &.button--pressed {
+        background: $button-background--hover;
+        border-color: transparent;
+        text-decoration: none;
+    }
+
+    &[disabled="disabled"],
+    &.disabled,
+    &.button--disabled {
+        &,
+        &:hover,
+        &:active {
+            background: $button-disabled-background;
+            border-color: $button-disabled-background;
+            box-shadow: none;
+            color: $button-disabled-color;
+            cursor: default;
+        }
+    }
+
+
+// BUTTON LAYOUT
+// ------------------------------------------------------------
+    //
+    // Force button to fill its container.
+    //
+    &--full {
+        display: block;
+        width: 100%;
+    }
+
+    //
+    // Allow multiple lines when text is larger than container.
+    //
+    &--multiline {
+        white-space: normal;
+    }
+
+
+// BUTTON SIZES
+// ------------------------------------------------------------
+    //
+    // 1. Total height: 2.25rem = 36px (with the defautl html font-size of 100%)
+    //    0.75rem + 0.75rem * 2 = 2.25rem;
+    //
+
+    &--small {
+        font-size: 0.75rem;         // 12px;
+        line-height: 0.75rem;       // [1]
+        padding: 0.75rem 0.5rem;    // [1]
+        min-width: 2.25rem;
+    }
+
+    //
+    // 1. Total height: 3rem = 48px (with the defautl html font-size of 100%).
+    //    1.5rem + 0.75rem * 2 = 3rem;
+    //
+    &--large {
+        font-size: 1.25rem;         // 20px;
+        line-height: 1.5rem;        // [1]
+        padding: 0.75rem 1rem;      // [1]
+        min-width: 3rem;
+    }
+
+
+// BUTTON SKINS
+// ------------------------------------------------------------
+    &--primary {
+        background: $button-primary-background;
+        border-color: $button-primary-background;
+        color: $button-primary-color;
+
+        &:hover,
+        &:active,
+        &.is--pressed {
+            background: $button-primary-background--hover;
+        }
+    }
+
+    &--accent {
+        background: $button-accent-background;
+        border-color: $button-accent-background;
+        color: $button-accent-color;
+
+        &:hover,
+        &:active,
+        &.is--pressed {
+            background: $button-accent-background--hover;
+        }
+    }
+}

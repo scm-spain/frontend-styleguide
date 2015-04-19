@@ -1,0 +1,61 @@
+.scm-button {
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 0.125rem;
+  border: 1px solid #3997d3;
+  cursor: pointer;
+  color: #3997d3;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1rem;
+  overflow: hidden;
+  padding: 0.75rem 1rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  min-width: 2.5rem;
+  max-width: 100%; }
+  .scm-button:hover, .scm-button:active, .scm-button.button--pressed {
+    background: #b2d6ed;
+    border-color: transparent;
+    text-decoration: none; }
+  .scm-button[disabled="disabled"], .scm-button[disabled="disabled"]:hover, .scm-button[disabled="disabled"]:active, .scm-button.disabled, .scm-button.disabled:hover, .scm-button.disabled:active, .scm-button.button--disabled, .scm-button.button--disabled:hover, .scm-button.button--disabled:active {
+    background: #cccccc;
+    border-color: #cccccc;
+    box-shadow: none;
+    color: #999999;
+    cursor: default; }
+  .scm-button--full {
+    display: block;
+    width: 100%; }
+  .scm-button--multiline {
+    white-space: normal; }
+  .scm-button--small {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    padding: 0.75rem 0.5rem;
+    min-width: 2.25rem; }
+  .scm-button--large {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    padding: 0.75rem 1rem;
+    min-width: 3rem; }
+  .scm-button--primary {
+    background: #3997d3;
+    border-color: #3997d3;
+    color: #ffffff; }
+    .scm-button--primary:hover, .scm-button--primary:active, .scm-button--primary.is--pressed {
+      background: #165681; }
+  .scm-button--accent {
+    background: #ec671c;
+    border-color: #ec671c;
+    color: #ffffff; }
+    .scm-button--accent:hover, .scm-button--accent:active, .scm-button--accent.is--pressed {
+      background: #c64e17; }
+
+/*# sourceMappingURL=button.css.map */
