@@ -41,3 +41,8 @@ September, 1–5 2015 • Barcelona
 20 – 21 OCTOBER 2015 • Barcelona
 
 [web](http://lanyrd.com/2015/smashingconf-barcelona/)
+
+##dotCSS
+December 4, 2015 • PARIS
+
+[web](http://www.dotcss.io/)
