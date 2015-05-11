@@ -21,6 +21,10 @@ _(Schibsted Telch Polska is sponsor)_
 July 02 & 03 • Paris, France
 
 [web](https://www.react-europe.org/)
+##MediterráneaJS
+JUNE 22 + 23, 2015 • El Born, Barcelona
+
+[web](http://mediterraneajs.eu/)
 
 ##Full Stack Fest
 September, 1–5 2015 • Barcelona
