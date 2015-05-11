@@ -6,4 +6,4 @@
 
 ### W3C
 
-- [Using WAI-ARIA](http://www.w3.org/TR/wai-aria/usage#usage_intro)
+- [Using WAI-ARIA](http://www.w3.org/TR/wai-aria/)
