@@ -46,3 +46,8 @@ September, 1–5 2015 • Barcelona
 December 4, 2015 • PARIS
 
 [web](http://www.dotcss.io/)
+
+##dotJS
+December 7, 2015 • PARIS
+
+[web](http://www.dotjs.io/)
